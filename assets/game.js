@@ -24,5 +24,7 @@ squares.forEach(elem => elem.style([["background", "black"]]));
 squares[1].move({ x:((c.getSize().x/2)-(squares[1].getSize().x/2))+"px" });
 squares[2].move({ x:((c.getSize().x)-(squares[2].getSize().x))+"px" });
 squares[3].move({ y:((c.getSize().y/2)-(squares[3].getSize().y/2))+"px" });
+squares[4].move({ y:((c.getSize().y/2)-(squares[4].getSize().y/2))+"px" });
+squares[4].move({ x:((c.getSize().x/2)-(squares[4].getSize().x/2))+"px" });
 
 }
