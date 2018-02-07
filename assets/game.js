@@ -4,6 +4,18 @@ const cvg = require("convergejs");
 const canvas = document.getElementById("canvas");
 const c = new cvg.Canvas(canvas, "600px", "450px", 60);
 
+const controls = [
+	"Q",
+	"w",
+	"E",
+	"A",
+	"S",
+	"D",
+	"Z",
+	"X",
+	"C"
+];
+
 const squares = [
 	// Top Row
 	c.new("box", "tl"),
