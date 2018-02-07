@@ -31,5 +31,7 @@ squares[5].move({ x:((c.getSize().x)-(squares[5].getSize().x))+"px" });
 squares[6].move({ y:((c.getSize().y)-(squares[6].getSize().y))+"px" });
 squares[7].move({ x:((c.getSize().x/2)-(squares[7].getSize().x/2))+"px" });
 squares[7].move({ y:((c.getSize().y)-(squares[7].getSize().y))+"px" });
+squares[8].move({ x:((c.getSize().x)-(squares[8].getSize().x))+"px" });
+squares[8].move({ y:((c.getSize().y)-(squares[8].getSize().y))+"px" });
 
 }
