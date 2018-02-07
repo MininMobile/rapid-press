@@ -66,6 +66,10 @@ Spread(overlay, c);
 function GameButton(e, controls) {
 	let delay = what();
 	let button = controls[what()];
+
+	setTimeout(() => {
+		
+	}, delay);
 }
 
 function Spread(arr, c) {
