@@ -19,7 +19,9 @@ const squares = [
 	c.new("box", "br")
 ];
 
-squares.forEach(elem => elem.style([["background", "black"]]));
+squares.forEach(elem => {
+	elem.style([["background", "black"]]);
+});
 
 squares[1].move({ x:((c.getSize().x/2)-(squares[1].getSize().x/2))+"px" });
 squares[2].move({ x:((c.getSize().x)-(squares[2].getSize().x))+"px" });
