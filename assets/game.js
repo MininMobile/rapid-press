@@ -29,5 +29,7 @@ squares[4].move({ x:((c.getSize().x/2)-(squares[4].getSize().x/2))+"px" });
 squares[5].move({ y:((c.getSize().y/2)-(squares[5].getSize().y/2))+"px" });
 squares[5].move({ x:((c.getSize().x)-(squares[5].getSize().x))+"px" });
 squares[6].move({ y:((c.getSize().y)-(squares[6].getSize().y))+"px" });
+squares[7].move({ x:((c.getSize().x/2)-(squares[7].getSize().x/2))+"px" });
+squares[7].move({ y:((c.getSize().y)-(squares[7].getSize().y))+"px" });
 
 }
