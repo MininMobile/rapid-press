@@ -68,9 +68,16 @@ function GameButton(e, controls) {
 
 	let delay = af.randomInt(0, 3);
 	let button = controls[af.randomInt(0, controls.length-1)];
+	let pressed = false;
+
+	document.onkeydown(() => { pressed = true });
 
 	setTimeout(() => {
-		
+		if (pressed) {
+
+		} else {
+			
+		}
 	}, delay);
 }
 
