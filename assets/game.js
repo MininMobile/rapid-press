@@ -46,6 +46,9 @@ const overlay = [
 	c.new("box", "br-o")
 ];
 
+Spread(squares, c);
+Spread(overlay, c);
+
 squares.forEach(elem => {
 	elem.style([["background", "black"]]);
 	elem.size({ height:"125px", width:"125px" });
@@ -57,9 +60,6 @@ overlay.forEach(over => {
 
 	GameButton(over, controls);
 });
-
-Spread(squares, c);
-Spread(overlay, c);
 
 }
 
