@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/MininMobile/rapid-press#readme",
   "dependencies": {
+    "convergejs": "^3.6.8",
     "electron": "^1.8.2"
   }
 }
