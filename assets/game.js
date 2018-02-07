@@ -64,8 +64,10 @@ Spread(overlay, c);
 }
 
 function GameButton(e, controls) {
-	let delay = what();
-	let button = controls[what()];
+	const af = require("minin-api-additionalfunctions");
+
+	let delay = af.randomInt(0, 3);
+	let button = controls[af.randomInt(0, controls.length-1)];
 
 	setTimeout(() => {
 		
