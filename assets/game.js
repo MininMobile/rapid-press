@@ -21,6 +21,7 @@ const squares = [
 
 squares.forEach(elem => {
 	elem.style([["background", "black"]]);
+	elem.size({ height:"125px", width:"125px" });
 });
 
 squares[1].move({ x:((c.getSize().x/2)-(squares[1].getSize().x/2))+"px" });
