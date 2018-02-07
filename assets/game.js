@@ -52,13 +52,20 @@ squares.forEach(elem => {
 });
 
 overlay.forEach(over => {
-	over.style([["background", "lime"], ["opacity", "0.0"]]);
+	over.style([["background", "lime"], ["transition", "all 5s"], ["opacity", "0.0"]]);
 	over.size({ height:"125px", width:"125px" });
+
+	GameButton(over, controls);
 });
 
 Spread(squares, c);
 Spread(overlay, c);
 
+}
+
+function GameButton(e, controls) {
+	let delay = what();
+	let button = controls[what()];
 }
 
 function Spread(arr, c) {
