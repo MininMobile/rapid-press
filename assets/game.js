@@ -66,18 +66,21 @@ Spread(overlay, c);
 function GameButton(e, controls) {
 	const af = require("minin-api-additionalfunctions");
 
-	let delay = af.randomInt(0, 3);
+	let delay = af.randomInt(3, 5);
 	let button = controls[af.randomInt(0, controls.length-1)];
 	let pressed = false;
 
-	document.onkeydown(() => { pressed = true });
+	document.onkeydown = (key) => { pressed = true };
+
+	e.style([["opacity", "1"]]);
 
 	setTimeout(() => {
 		if (pressed) {
-
-		} else {
 			
+		} else {
+			e.style([["background", "red"]]);
 		}
+		GameButton(e, controls)
 	}, delay);
 }
 
