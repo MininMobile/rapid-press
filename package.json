@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/MininMobile/rapid-press/issues"
   },
-  "homepage": "https://github.com/MininMobile/rapid-press#readme"
+  "homepage": "https://github.com/MininMobile/rapid-press#readme",
+  "dependencies": {
+    "electron": "^1.8.2"
+  }
 }
